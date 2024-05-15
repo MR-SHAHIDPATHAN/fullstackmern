@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+
+*{
+    font-family: "Briem Hand", cursive;
+}
+
+
+.bg
+
+
+/* selectors   ctrrl + / */
+
+h1{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+/* id selectors  */
+
+#demo{
+    color: red;
+    background-color: yellow;
+}
+
+
+
+#btn{
+    color: rgb(66, 66, 128);
+    background-color: green;
+}
+
+
+#register{
+    color: rgb(21, 208, 241);
+    background-color: black;
+}
+
+
+/* class selectors  */
+
+.heading{
+    color: red;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.bg{
+    background-color: yellow;
+}
+
+
+/* colors  */
+
+
+.color{
+
+    /* color:rgb(255, 183, 237); */
+    /* color: rgb(255, 0, 0); */
+
+    /* color: #ffdd48; */
+    /* color: hsl(269, 72%, 51%); */
+    /* color: #FF407D; */
+
+
+}
+
+
+
+/* background colors  */
+
+#para{
+    color: black;
+    /* background-color: rgb(255, 77, 77); */
+    /* background-image: url('https://image.shutterstock.com/image-vector/abstract-orange-yellow-geometric-background-260nw-2105607560.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+    /* background-image: linear-gradient(red,yellow , blue); */
+
+    color: white;
+
+    /* background: linear-gradient(90deg, rgba(230,80,14,1) 0%, rgba(226,9,174,1) 35%, rgba(0,212,255,1) 94%); */
+   
+background-image: radial-gradient(red, yellow , blue);
+
+
+}
